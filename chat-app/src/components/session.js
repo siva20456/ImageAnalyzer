@@ -10,7 +10,7 @@ const Session = () => {
             body:JSON.stringify({userId:user}),
             headers: {
                 "Content-type": "application/json"
-              }
+              } 
         }
         const API = ''
         const response = await fetch(API,options)
